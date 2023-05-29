@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css" 
+    integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./style.css">
+
+<title>Atividade A10</title> 
+</head>
+<body>
+    <h3>Atividade de Máscara e Validação</h3>
+    <h3>Preencha os campos</h3>
+    
+    <label>CPF: 000.000.000-00</label>
+    <input type="text" class= "text" data-js="cpf" id="cpf">
+    <span id="cpf-erro" class="erro"></span><br>
+    
+    <label>Data de Nascimento: 00/00/000</label>
+    <input type="text" class="text" data-js="dataNascimento" id="dataNascimento"><br>
+    
+    <label>CNPJ: 00.000.000/0000-00</label>
+    <input type="text" class="text" data-js="cnpj" id="cnpj"><br>
+    
+    <label>CEP: 00000-000</label>
+    <input type="text" class="text" data-js="cep" id="cep"><br>
+    
+    <label>Telefone com DD: (00) 00000-0000</label>
+    <input type="text" class="text" data-js="telefoneDD" id="telefoneDD"><br>
+
+    <button id="button" >Enviar</button>
+  
+</body>
+</html>
+
+<script type="module" src="./app.js"></script>
