@@ -1,0 +1,21 @@
+.errorInput{
+    border: 2px solid rgb(183,28, 28) !important;
+}
+.erro {
+    color: rgb(183, 28, 28);
+    font-size: 12px;
+  }
+
+  body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0)
+  }
+
+  h3{
+    font-weight: bold;
+    color:rgb(125, 36, 160)
+  }
+
+  button {
+    color: rgb(255, 255, 255) 
+  }
