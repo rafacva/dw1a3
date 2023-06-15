@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 :root {
-    background: url(./img/mapamundi.jpg) no-repeat;
+    background: url(../img/mapamundi.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
